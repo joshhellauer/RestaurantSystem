@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="15" />
+    <title>Kitchen</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='/css/kitchen.css') }}"
+    />
+  </head>
+  <body>
+    <a id="home-page-a" href="{{ url_for('index') }}"
+      >Click here to go back to the main page</a
+    >
+    <div id="tickets-div">
+      {% for order in orders %}
+      <div class="ticket-item-div">
+        <div class="order-id-div">
+          <h3 class="order-id-h3">
+            <span class="order-id-span">{{ order.id }}</span> <br />
+            for {{ order.customer_name }}
+          </h3>
+        </div>
+        <div class="order-items-div">
+          <ul class="order-content-ul" id="order-products-ul">
+            {% for i in range(order.product_names|length) %}
+            <li class="order-product-li">
+              {{ order.quantities[i] }} x &emsp;{{ order.product_names[i] }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <a
+          class="complete-order-a"
+          href="{{ url_for('delete_order', order_id=order.id) }}"
+        >
+          <h3 class="print-complete-h3">
+            <span class="delete-order-span">Print / complete</span>
+          </h3>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

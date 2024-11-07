@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  padding-top: 60px;
+}
+
+.category-menu {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+}
+
+#featured-favorites-ul {
+  margin-bottom: 30px;
+  height: 90px;
+}
+
+.category-menu ul,
+.featured-favorites-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 1px;
+}
+
+.catmen-ul {
+  margin-top: 20px;
+}
+
+.catmen-li,
+#featured-favorites-li {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 85px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#featured-favorites-li:hover,
+.catmen-li:hover {
+  font-weight: bold;
+}
+
+#featured-favorites-li:active,
+.catmen-li:active {
+  font-weight: bold;
+}
+
+.catmen-img {
+  width: 85px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.main-content {
+  display: inline-block;
+}
+
+#title {
+  display: inline-block;
+}
+
+#default-title,
+#category-title {
+  text-align: center;
+}
+
+#default-title {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.content-card-container {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  height: auto;
+  padding-top: 25px;
+}
+
+.content-card {
+  width: 180px;
+  height: 210px;
+  margin: 20px;
+}
+
+.content-img {
+  width: 180px;
+  height: auto;
+}
+
+.content-card-title {
+  text-align: center;
+  font-weight: 300;
+}
+
+.order-now-div {
+  height: 30px;
+}
+
+.quantity-label {
+  display: block;
+}
+
+.quantity-button {
+  width: 20px;
+  height: 90%;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(219, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 6%;
+}
+
+.quantity-button:hover {
+  background-color: rgb(246, 68, 68);
+}
+
+.quantity-button:active {
+  background-color: rgb(219, 0, 0);
+}
+
+.quantity-input {
+  width: 40px;
+  height: 100%;
+  font-size: 20px;
+}
+
+.order-now-button {
+  height: 90%;
+  width: 100px;
+  font-size: 16px;
+  background-color: rgb(246, 207, 68);
+  color: black;
+  border: none;
+  border-radius: 6%;
+}
+
+.order-now-button:hover {
+  background-color: rgb(224, 178, 13);
+}

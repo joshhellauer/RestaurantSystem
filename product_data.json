@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Featured Favorites",
+    "products": [
+      {
+        "name": "Spicy McCrispy",
+        "calories": "530",
+        "description": "With our Spicy Pepper Sauce topping the southern style fried chicken fillet on a toasted potato roll, this sandwich was made for those who like it crispy, juicy, tender and hot.",
+        "image": "/images/spicy-mccrispy.jpg",
+        "price": "2.99"
+      },
+      {
+        "name": "Big Mac",
+        "calories": "590",
+        "description": "Ever wondered what's on a Big Mac®? The McDonald's Big Mac® is a 100% beef burger with a taste like no other. The mouthwatering perfection starts with two 100% pure all beef patties and Big Mac® sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp shredded lettuce, finely chopped onion, and a slice of American cheese. It contains no artificial flavors, preservatives, or added colors from artificial sources. Our pickle contains an artificial preservative, so skip it if you like.",
+        "image": "/images/bigmac.jpg",
+        "price": "3.29"
+      },
+      {
+        "name": "Quarter Pounder with Cheese",
+        "calories": "520",
+        "description": "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. What comes on a Quarter Pounder? Each fresh beef burger is seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty American cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources.^ Our pickle contains an artificial preservative, so skip it if you like. A Quarter Pounder with Cheese has 520 Calories.",
+        "image": "/images/qpc.jpg",
+        "price": "3.49"
+      },
+      {
+        "name": "Iced Coffee",
+        "calories": "140",
+        "description": "Enjoy a refreshingly cool Iced Coffee at McDonald’s! Our McCafé Iced Coffee recipe is made with 100% Arabica beans, cream, and your choice of flavored coffee syrup—Caramel, Hazelnut, French Vanilla, and Sugar-Free French Vanilla.* A fan of black coffee? Get it without the sugar or cream to refresh your mornings with a cool Black Iced Coffee.",
+        "image": "/images/iced-coffee.jpg",
+        "price": "2.29"
+      },
+      {
+        "name": "Egg McMuffin",
+        "calories": "310",
+        "description": "Satisfy your McDonald's breakfast cravings with our Egg McMuffin® breakfast sandwich—it’s an excellent source of protein and oh so delicious. McDonald's Egg McMuffin® recipe features a freshly cracked Grade A egg placed on a toasted English Muffin topped with real butter, lean Canadian bacon, and melty American cheese. There are 310 calories in an Egg McMuffin® from McDonald’s.",
+        "image": "/images/eggmcmuffin.jpg",
+        "price": "1.49"
+      }
+    ]
+  },
+  {
+    "name": "Breakfast",
+    "products": [
+      {
+        "name": "Bacon, Egg, & Cheese Biscuit",
+        "calories": "460",
+        "description": "The McDonald's Bacon, Egg & Cheese Biscuit breakfast sandwich features a warm, buttermilk biscuit brushed with real butter, thick cut Applewood smoked bacon, a fluffy folded egg, and a slice of melty American cheese. There are 460 calories in a Bacon, Egg & Cheese Biscuit at McDonald's. Try one today with a Premium Roast Coffee and order with Mobile Order & Pay on the McDonald's App!",
+        "image": "/images/becb.jpg",
+        "price": "2.49"
+      },
+      {
+        "name": "Egg McMuffin",
+        "calories": "310",
+        "description": "Satisfy your McDonald's breakfast cravings with our Egg McMuffin® breakfast sandwich—it’s an excellent source of protein and oh so delicious. McDonald's Egg McMuffin® recipe features a freshly cracked Grade A egg placed on a toasted English Muffin topped with real butter, lean Canadian bacon, and melty American cheese. There are 310 calories in an Egg McMuffin® from McDonald’s.",
+        "image": "/images/eggmcmuffin.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Sausage McMuffin",
+        "calories": "400",
+        "description": "McDonald's Sausage McMuffin® recipe features a warm, freshly toasted English muffin, topped with a savory hot sausage patty and a slice of melty American cheese. There are 400 calories in a Sausage McMuffin® at McDonald's. Try this McDonald's breakfast sandwich today with a Premium Roast Coffee and order with Mobile Order & Pay on the McDonald's App!",
+        "image": "/images/sausagemcmuffin.jpg",
+        "price": "2.29"
+      },
+      {
+        "name": "Sausage McMuffin with Egg",
+        "calories": "480",
+        "description": "Start your day off with a McDonald’s Sausage McMuffin with Egg breakfast sandwich. Our Sausage Egg McMuffin recipe features a savory hot sausage, a slice of melty American cheese and a delicious, freshly cracked egg all on a freshly toasted English muffin. There are 480 calories in Sausage McMuffin with Egg at McDonald's.",
+        "image": "/images/sausmcmuffinwegg.jpg",
+        "price": "2.99"
+      },
+      {
+        "name": "Sausage Biscuit",
+        "calories": "460",
+        "description": "McDonald’s Sausage Biscuit is the perfect sausage breakfast sandwich to start your day! Our Sausage Biscuit recipe is made with sizzling hot sausage on a warm buttermilk biscuit that’s topped with real butter and baked to perfection. Pair it with a small McCafé® Premium Roast Coffee to complete your meal!",
+        "image": "/images/sausage-biscuit.jpg",
+        "price": "2.49"
+      },
+      {
+        "name": "Sausage McGriddles",
+        "calories": "430",
+        "description": "McDonald’s Sausage McGriddles® is the perfect sausage breakfast sandwich to start the day! Our Sausage McGriddles recipe features soft, warm griddle cakes—with the taste of sweet maple—that hold our savory, sizzling hot sausage. McGriddles cakes have no artificial preservatives or flavors and no colors from artificial sources.",
+        "image": "/images/sausage-mcgriddles.jpg",
+        "price": "2.29"
+      },
+      {
+        "name": "Big Breakfast",
+        "calories": "760",
+        "description": "Our full, satisfying Big Breakfast is perfect for any morning. Ever wondered what's in a McDonald's Big Breakfast? Wake up to a breakfast meal with a warm biscuit, fluffy scrambled eggs, savory McDonald's sausage and crispy golden Hash Browns. There are 760 calories in Big Breakfast at McDonald's.",
+        "image": "/images/big-breakfast.jpg",
+        "price": "6.49"
+      },
+      {
+        "name": "Hotcakes and Sausage",
+        "calories": "770",
+        "description": "When you're craving pancakes and sausage, McDonald's has you covered with our Hotcakes and Sausage breakfast. Featuring 3 golden brown Hotcakes and real butter, topped with sweet maple flavored hotcake syrup. On the side, you get a hot McDonald's sausage patty. There are 770 calories in a Hotcakes and Sausage breakfast. Pair it with a Premium Roast Coffee for a perfect pancakes and sausage breakfast combo.",
+        "image": "/images/hotcakesandsausage.jpg",
+        "price": "5.49"
+      },
+      {
+        "name": "Hotcakes",
+        "calories": "580",
+        "description": "If you love hot pancakes, you've got to try McDonald's Hotcakes with a side of real butter and sweet maple flavored Hotcake syrup. This McDonald's breakfast comes with 3 golden brown Hotcakes. There are 580 calories in McDonald's Hotcakes. Order them with a Premium Roast Coffee for the perfect breakfast combo.",
+        "image": "/images/hotcakes.jpg",
+        "price": "4.49"
+      },
+      {
+        "name": "Hash Browns",
+        "calories": "140",
+        "description": "Our Hash Browns are deliciously tasty and perfectly crispy. This crispy Hash Brown recipe features shredded potato hash brown patties that are prepared so they’re fluffy on the inside and crispy and toasty on the outside. There are 140 calories in McDonald's Hash Browns. Pair our Hash Browns with your favorite McDonald's Breakfast Menu items.",
+        "image": "/images/hashbrowns.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Fruit & Maple Oatmeal",
+        "calories": "320",
+        "description": "McDonald's Fruit and Maple Oatmeal recipe feature two full servings of whole-grain oats with a touch of cream and brown sugar. Loaded with red and green apples, cranberries, and two varieties of raisins, our oatmeal makes for a hearty, wholesome breakfast of whole grains and fruit. There are 320 calories in a Fruit and Maple Oatmeal from McDonald's. Enjoy this whole grain oatmeal for breakfast with a McCafé® Premium Roast Coffee to give a healthy start to your day. Order a Fruit and Maple Oatmeal with Mobile Order & Pay* or get it delivered with McDelivery®! You can also order one from our full menu in the app with Curbside pickup.",
+        "image": "/images/fruitmapleoatmeal.jpg",
+        "price": "1.49"
+      }
+    ]
+  },
+  {
+    "name": "Burgers",
+    "products": [
+      {
+        "name": "Big Mac",
+        "calories": "590",
+        "description": "Ever wondered what's on a Big Mac®? The McDonald's Big Mac® is a 100% beef burger with a taste like no other. The mouthwatering perfection starts with two 100% pure all beef patties and Big Mac® sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp shredded lettuce, finely chopped onion, and a slice of American cheese. It contains no artificial flavors, preservatives, or added colors from artificial sources. Our pickle contains an artificial preservative, so skip it if you like.",
+        "image": "/images/bigmac.jpg",
+        "price": "3.29"
+      },
+      {
+        "name": "Quarter Pounder with Cheese",
+        "calories": "520",
+        "description": "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. What comes on a Quarter Pounder? Each fresh beef burger is seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty American cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources.^ Our pickle contains an artificial preservative, so skip it if you like. A Quarter Pounder with Cheese has 520 Calories.",
+        "image": "/images/qpc.jpg",
+        "price": "3.49"
+      },
+      {
+        "name": "Cheeseburger",
+        "calories": "300",
+        "description": "Enjoy the cheesy deliciousness of a McDonald’s Cheeseburger! Our simple, classic cheeseburger begins with a 100% pure beef burger patty seasoned with just a pinch of salt and pepper. The McDonald’s Cheeseburger is topped with a tangy pickle, chopped onions, ketchup, mustard, and a slice of melty American cheese. It contains no artificial flavors, preservatives or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like. For more delicious burger variations explore the McDonald’s burger menu.",
+        "image": "/images/cheeseburger.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Double Cheeseburger",
+        "calories": "450",
+        "description": "The McDonald's Double Cheeseburger features two 100% pure all beef patties seasoned with just a pinch of salt and pepper. It's topped with tangy pickles, chopped onions, ketchup, mustard, and two melty American cheese slices. Wondering what is the difference between McDouble and Double Cheeseburger? It's the extra slice of American cheese in the Double Cheeseburger.",
+        "image": "/images/doublecheeseburger.jpg",
+        "price": "1.99"
+      },
+      {
+        "name": "Hamburger: The Classic McDonald's Burger",
+        "calories": "250",
+        "description": "The Classic McDonald's Hamburger starts with a 100% pure beef patty seasoned with just a pinch of salt and pepper. Then, the McDonald’s burger is topped with a tangy pickle, chopped onions, ketchup, and mustard. What's the difference between a Hamburger and a Cheeseburger, you ask? A slice of cheese in the latter! There are 250 calories in a McDonald’s Hamburger. It contains no artificial flavors, preservatives, or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like.",
+        "image": "/images/hamburger.jpg",
+        "price": "1.49"
+      }
+    ]
+  },
+  {
+    "name": "Chicken & Fish Sandwiches",
+    "products": [
+      {
+        "name": "McCrispy",
+        "calories": "470",
+        "description": "The McDonald’s McCrispy™ is a southern-style fried chicken sandwich that's crispy, juicy and tender perfection. It’s topped with crinkle-cut pickles and served on a toasted, buttered potato roll. The McCrispy™ has 470 calories.",
+        "image": "/images/mccrispy.jpg",
+        "price": "2.99"
+      },
+      {
+        "name": "Deluxe McCrispy",
+        "calories": "530",
+        "description": "Go deluxe with the McDonald’s Deluxe McCrispy! Wondering what comes on the sandwich? Our Deluxe McCrispy features a crispy chicken fillet with shredded lettuce, Roma tomatoes and mayo to take crispy, juicy and tender to the next level.",
+        "image": "/images/dlxmccrispy.jpg",
+        "price": "3.49"
+      },
+      {
+        "name": "Spicy McCrispy",
+        "calories": "530",
+        "description": "With our Spicy Pepper Sauce topping the southern style fried chicken fillet on a toasted potato roll, this sandwich was made for those who like it crispy, juicy, tender and hot.",
+        "image": "/images/spicy-mccrispy.jpg",
+        "price": "2.99"
+      },
+      {
+        "name": "Filet-O-Fish",
+        "calories": "390",
+        "description": "Dive into our wild-caught Filet-O-Fish, a classic McDonald's fish sandwich! Our fish sandwich recipe features a crispy fish filet patty on melty American cheese and is topped with creamy McDonald’s tartar sauce, all served on a soft, steamed bun.",
+        "image": "/images/filet-o-fish.jpg",
+        "price": "2.49"
+      },
+      {
+        "name": "McChicken",
+        "calories": "400",
+        "description": "It’s a classic for a reason. Savor the satisfying crunch of our juicy chicken patty, topped with shredded lettuce and just the right amount of creamy mayonnaise, all served on a perfectly toasted bun.* The McChicken has 400 calories. Get your McDonald’s McChicken sandwich using Mobile Order & Pay or get it straight to your door with McDelivery®.*",
+        "image": "/images/mcchicken.jpg",
+        "price": "1.49"
+      }
+    ]
+  },
+  {
+    "name": "McNuggets and Meals",
+    "products": [
+      {
+        "name": "Chicken McNuggets",
+        "calories": "170",
+        "description": "Enjoy tender, juicy Chicken McNuggets® with your favorite dipping sauces. Wondering what are McDonald's Chicken Nuggets made of? Chicken McNuggets® are made with all white meat chicken and no artificial colors, flavors, or preservatives. There are 170 calories in a 4-piece Chicken McNuggets®. Get Chicken Nuggets at the McDonald's near you or order online using the McDonald's app for Drive Thru and Curbside pickup or contactless Mobile Order & Pay.",
+        "image": "/images/mcnuggets.jpg",
+        "price": "2.49"
+      },
+      {
+        "name": "10 Piece Chicken McNuggets",
+        "calories": "410",
+        "description": "Our tender, juicy Chicken McNuggets® are made with all white meat chicken and no artificial colors, flavors or preservatives. There are 410 calories in a 10 piece Chicken McNuggets®. Pair them with your favorite dipping sauces when you Mobile Order & Pay!*",
+        "image": "/images/10piecenugs.jpg",
+        "price": "3.49"
+      }
+    ]
+  },
+  {
+    "name": "Fries & Sides",
+    "products": [
+      {
+        "name": "World Famous Fries",
+        "calories": "230",
+        "description": "McDonald's World Famous Fries® are made with premium potatoes such as the Russet Burbank and the Shepody. With 0g of trans fat per labeled serving, these epic fries are crispy and golden on the outside and fluffy on the inside.",
+        "image": "/images/fries.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Apple Slices",
+        "calories": "15",
+        "description": "McDonald’s Apple Slices are a wholesome, tasty side made from real apples. Specially selected varieties mean our apple slices are always crisp and juicy, making for a tasty snack with 15 calories per labelled serving. Enjoy it as a Snack or Side to your meal!",
+        "image": "/images/apples.jpg",
+        "price": "0.99"
+      }
+    ]
+  },
+  {
+    "name": "Happy Meal",
+    "products": [
+      {
+        "name": "Hamburger Happy Meal",
+        "calories": "475",
+        "description": "Enjoy a Hamburger meal from the McDonald’s Happy Meal menu that your kiddies are sure to love! Wondering what comes in a Happy Meal® with Hamburger? McDonald's Hamburger Happy Meal® includes a juicy McDonald's Hamburger with kid-sized World Famous Fries® and Apple Slices. Then pick a kid’s drink: 1% Low Fat Milk Jug, Reduced Sugar* Low Fat Chocolate Milk, DASANI® Water, or Honest Kids® Appley Ever After® Organic Juice Drink. Plus, a McDonald’s Happy Meal® toy that completes every McDonald’s Kids meal.",
+        "image": "/images/hhappymeal.jpg",
+        "price": "6.49"
+      },
+      {
+        "name": "4 Piece Chicken McNuggets Happy Meal",
+        "calories": "395",
+        "description": "Enjoy a 4 Piece Chicken McNuggets Happy Meal® from the McDonald’s Happy Meal® menu. Our Chicken McNugget Happy Meal features four tender Chicken McNuggets® made with white meat, kid-sized World Famous Fries and a side of Apple Slices. Then pick a kids’ drink: 1% Low Fat Milk Jug, Reduced Sugar Low Fat Chocolate Milk Jug, DASANI® Water or Honest Kids® Appley Ever After® Organic Juice Drink. Plus, a fun toy completes every McDonald's kid's meal.",
+        "image": "/images/nugs4hm.jpg",
+        "price": "5.99"
+      },
+      {
+        "name": "6 Piece Chicken McNuggets Happy Meal",
+        "calories": "475",
+        "description": "Enjoy a McDonald’s Happy Meal® and get six tender Chicken McNuggets® made with white meat, a kid-sized World Famous Fries and a side of Apple Slices. Then pick a kids’ drink: 1% Low Fat Milk Jug, Reduced Sugar Low Fat Chocolate Milk Jug, DASANI® Water or Honest Kids® Appley Ever After® Organic Juice Drink. Plus, every McDonald’s kids’ meal comes with a McDonald’s Happy Meal toy! There are 475 calories in a 6 piece Chicken McNuggets Happy Meal with kids’ fries, 1% milk and apple slices. Order yours with Mobile Order & Pay for pickup or McDelivery®.",
+        "image": "/images/nugs6hm.jpg",
+        "price": "6.49"
+      }
+    ]
+  },
+  {
+    "name": "McCafe Coffees",
+    "products": [
+      {
+        "name": "Premium Roast Coffee",
+        "calories": "5",
+        "description": "Treat yourself to a cup of our simple, satisfying McCafé® Premium Roast Coffee. Made with 100% Arabica beans, McCafé® Premium Roast Coffee is expertly roasted and freshly brewed every 30 minutes. Enjoy your hot coffee black or with your choice of sugar, sweetener, and dairy or creamer. Available in small, medium and large. There are 5 calories in a small coffee at McDonald's. Pick up freshly brewed coffee on your terms through the drive thru or with McDonald's curbside pickup when you Mobile Order & Pay! McDonald's app download and registration required.",
+        "image": "/images/coffee.jpg",
+        "price": "0.99"
+      },
+      {
+        "name": "Americano",
+        "calories": "0",
+        "description": "Start your mornings with a bold McCafé® Americano coffee that pairs perfectly with our breakfast menu items. Wondering what’s in an Americano from McDonald’s? Our simple yet satisfying Americano is made with hot water poured over our Rainforest Alliance Certified™ espresso.",
+        "image": "/images/americano.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Iced Mocha",
+        "calories": "280",
+        "description": "Put a pep in your step with McDonald’s Iced Mocha Latte—the chilled equivalent of our McCafé® Mocha Latte. Made with sustainably sourced espresso beans from Rainforest Alliance Certified™ farms, our refreshingly cool Iced Mocha Latte recipe is made with whole milk, chocolate syrup, and finished with whipped light cream and chocolate drizzle.",
+        "image": "/images/icedmocha.jpg",
+        "price": "3.49"
+      },
+      {
+        "name": "Iced Latte",
+        "calories": "90",
+        "description": "Cool down with a cold McCafé® Iced Latte at McDonald's. Our Iced Latte recipe combines espresso with cold whole milk, mixed with your choice of flavor at certain locations. Wondering what's the difference between an iced coffee and an iced latte? While iced coffee is made with brewed coffee, McDonald's Iced latte is made from Rainforest Alliance Certified™ espresso. Available in small, medium, and large. There are 90 calories in a small McCafé® Iced Latte with whole milk. Get one today with McDelivery® or get it with curbside pickup using Mobile Order & Pay!",
+        "image": "/images/icedlatte.jpg",
+        "price": "3.49"
+      },
+      {
+        "name": "Caramel Macchiato",
+        "calories": "260",
+        "description": "Ever wondered what's in a Caramel Macchiato from McDonald's? Our McCafé® Caramel Macchiato recipe features rich, dark-roast espresso served with steamed whole milk, mixed with sweet caramel syrup. Available in small, medium, and large. There are 260 calories in a small Caramel Macchiato with whole milk from McDonald's. Try a hot Caramel Macchiato today when you order with Mobile Order & Pay* or get it delivered with McDelivery®! You can also order one from our full menu in the app with Curbside pickup.",
+        "image": "/images/caramelmacchiato.jpg",
+        "price": "3.49"
+      }
+    ]
+  },
+  {
+    "name": "Sweets & Treats",
+    "products": [
+      {
+        "name": "McFlurry with OREO Cookies",
+        "calories": "510",
+        "description": "The McDonald’s McFlurry® with OREO® Cookies is a popular combination of creamy vanilla soft serve with crunchy pieces of OREO® cookies!  There are 510 calories in a regular size OREO® McFlurry® at McDonald's. Check out all the McFlurry® flavors on the McDonald's Desserts & Shakes menu. Order a McFlurry® with OREO® Cookies using Mobile Order & Pay* in the McDonald’s app.",
+        "image": "/images/oreomcflurry.jpg",
+        "price": "2.99"
+      },
+      {
+        "name": "McFlurry with M&Ms Candies",
+        "calories": "640",
+        "description": "Treat yourself to a delicious M&M’S® McFlurry! The McDonald’s McFlurry with M&M’S® is a sweet combination of creamy vanilla soft serve with crunchy M&M’S® chocolate candies swirled in. It’s a perfectly sweet addition to any McDonald's meal. There are 640 calories in a regular McFlurry with M&M’S candies.",
+        "image": "/images/mnmmcflurry.jpg",
+        "price": "2.99"
+      },
+      {
+        "name": "Vanilla Cone",
+        "calories": "200",
+        "description": "Treat yourself to a delicious Vanilla Cone Treat from McDonald’s! Our Vanilla Cone features creamy vanilla soft serve in a crispy cone. It's the perfect sweet treat in addition to any McDonald's meal or on its own. There are 200 calories in a Vanilla Cone at McDonald’s.",
+        "image": "/images/vanilla.jpg",
+        "price": "1.29"
+      },
+      {
+        "name": "Hot Fudge Sundae",
+        "calories": "330",
+        "description": "Treat yourself to a delicious Hot Fudge Sundae from McDonald’s! Our classic Hot Fudge Sundae is made with creamy vanilla soft serve and smothered in chocolatey hot fudge topping. It’s a perfectly sweet addition to any of your favorite McDonald’s items. There are 330 calories in a McDonald's Hot Fudge Sundae.",
+        "image": "/images/hotfudge.jpg",
+        "price": "1.99"
+      },
+      {
+        "name": "Hot Caramel Sundae",
+        "calories": "330",
+        "description": "Treat yourself to a Hot Caramel Sundae at McDonald's! This Caramel Sundae combines creamy vanilla soft serve and warm, buttery caramel topping. Order it to complete your McDonald's meal using Mobile Order & Pay!",
+        "image": "/images/hotcaramel.jpg",
+        "price": "1.99"
+      },
+      {
+        "name": "Baked Apple Pie",
+        "calories": "230",
+        "description": "McDonald's Baked Apple Pie recipe features 100% American-grown apples, and a lattice crust baked to perfection and topped with sprinkled sugar. There are 230 calories in McDonald's apple pie. Pair it with a Hot Caramel Sundae for your own twist on Apple Pie A-La-Mode! Order a Baked Apple Pie today and get it curbside with Mobile Order & Pay! Get it delivered with McDelivery®!",
+        "image": "/images/applepie.jpg",
+        "price": "2.49"
+      }
+    ]
+  },
+  {
+    "name": "Beverages",
+    "products": [
+      {
+        "name": "Coca-Cola",
+        "calories": "150",
+        "description": "Enjoy a cold, refreshing Coca-Cola® soda from McDonald's that complements all your menu favorites. Want to know why McDonald's Coke® tastes different? Visit our FAQ page on Why Does McDonald’s Coca-Cola Taste So Good to find out more about our Fountain Coke®.",
+        "image": "/images/coke.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Sprite",
+        "calories": "140",
+        "description": "Cool off with the refreshing McDonald's Sprite®—the classic and delicious lemon-lime fountain drink. Now, you might be asking does Sprite® have caffeine? No, Sprite® is a caffeine-free soda that makes the perfect addition to any McDonald’s Combo Meal. There are 140 calories in a Small Sprite® at McDonald's. Order one today from our full menu in the app with Curbside pickup.",
+        "image": "/images/sprite.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Dr. Pepper",
+        "calories": "140",
+        "description": "Satisfy your taste buds with the unique taste of Dr Pepper® at McDonald's. Wondering what flavor is Dr Pepper®? This classic and refreshing fountain drink is a unique blend of 23 flavors.",
+        "image": "/images/drpepper.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Fanta Orange",
+        "calories": "150",
+        "description": "Sip on the bubbly, refreshing orange flavor of Fanta® Orange soda from McDonald’s! McDonald’s Fanta® Orange is a caffeine-free soda that makes it a perfect addition to any of your favorite McDonald's items. Available in small, medium and large fountain drink sizes. There are 150 calories in a small Fanta® Orange at McDonald’s.",
+        "image": "/images/fanta.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Diet Coke",
+        "calories": "0",
+        "description": "Try a refreshing, icy cold Diet Coke® from McDonald’s! There are zero calories and zero sugar in Diet Coke® which makes it a perfect staple to any McDonald's meal available on the $1 $2 $3 Dollar Menu.*",
+        "image": "/images/diet-coke-2.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "Hi-C Orange Lavaburst",
+        "calories": "160",
+        "description": "You asked for it, you got it—Hi-C® Orange at McDonald’s is back! McDonald’s Hi-C® Orange Lavaburst® features a fruity flavor that teases your tastebuds, it’s the perfect addition to any McDonald’s meal.",
+        "image": "/images/hi-c2.jpg",
+        "price": "1.49"
+      },
+      {
+        "name": "1% Low Fat Milk Jug",
+        "calories": "100",
+        "description": "Enjoy a refreshing 1% Low Fat Milk Jug from McDonald’s—an excellent source of calcium and a good source of vitamins A & D! McDonald's Milk Jug is a low fat milk that can be added to your Happy Meal® as a drink option. There are 100 calories in a 1% Low Fat Milk Jug from McDonald’s.",
+        "image": "/images/milk.jpg",
+        "price": "1.29"
+      },
+      {
+        "name": "Reduced Sugar Low Fat Chocolate Milk Jug",
+        "calories": "130",
+        "description": "Enjoy a Reduced Sugar Low Fat Chocolate Milk Jug with the goodness of Calcium and Vitamins A & D. McDonald’s Low Fat Chocolate Milk recipe is full of low-fat chocolate milk and is a perfect addition to your Happy Meal®. There are 130 calories in a Reduced Sugar Low Fat Chocolate Milk Jug from McDonald’s.",
+        "image": "/images/chocolatemilk.jpg",
+        "price": "1.29"
+      },
+      {
+        "name": "DASANI Water",
+        "calories": "0",
+        "description": "Salty water straight from Pennsylvania's winding cave system, in the flimsiest plsatic bottle you could imagine.",
+        "image": "/images/water.jpg",
+        "price": "1.49"
+      }
+    ]
+  }
+]

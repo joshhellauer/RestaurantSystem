@@ -1,0 +1,53 @@
+{% extends 'template.html' %} {% block head %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='/css/products.css')}}"
+/>
+<script src="{{ url_for('static', filename='/js/main_page.js') }}"></script>
+
+{% endblock %} {% block body %}
+<a id="view-full-menu-a" href="{{ url_for('index') }}">
+  <h2 id="view-full-menu-h2">
+    <i class="fa-solid fa-arrow-left"></i> View full menu
+  </h2>
+</a>
+<div class="main-content">
+  <img src="{{ url_for('static', filename=product.image) }}" alt="" />
+  <div class="product-info">
+    <h1 id="product-name-h1">{{ product.name }}</h1>
+    <h3 id="calories-h3">{{ product.calories }} Cal</h3>
+    <p id="description-p">{{ product.description }}</p>
+    <div class="order-now-div">
+      <button
+        class="quantity-button"
+        onclick="decreaseQuantity('{{ product.id }}')"
+      >
+        -
+      </button>
+      <input
+        id="input-{{ product.id }}"
+        readonly
+        type="number"
+        name="input-quantity"
+        class="quantity-input"
+        class="quantity"
+        value="1"
+        min="1"
+      />
+      <button
+        class="quantity-button"
+        onclick="increaseQuantity('{{ product.id }}')"
+      >
+        +
+      </button>
+      <button
+        class="order-now-button"
+        data-product-id="{{ product.id }}"
+        onclick="addToOrder('{{ product.name }}', '{{ product.price }}', '{{ product.id }}')"
+      >
+        Add to order
+      </button>
+    </div>
+  </div>
+</div>
+{% endblock %}

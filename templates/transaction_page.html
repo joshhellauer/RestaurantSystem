@@ -1,0 +1,33 @@
+{% extends 'template.html' %} {% block head %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='/css/transaction_page.css') }}"
+/>
+<script src="{{ url_for('static', filename='/js/transaction_page.js') }}"></script>
+{% endblock %} {% block body %}
+<h1 id="your-order-h1">Your order</h1>
+<h1 id="order-name-h1">for: {{ order_data.customer_name }}</h1>
+<h2 id="ticket-id-h2">order no. {{ order_id }} </h2>
+<div class="ticket-item-div">
+  <ul class="order-content-ul" id="quantities-ul">
+    {% for i in range(order_data.quantities|length) %}
+    <li class="order-quantity=li">{{ order_data.quantities[i] }} x</li>
+    {% endfor %}
+  </ul>
+  <ul class="order-content-ul" id="order-products-ul">
+    {% for i in range(order_data.product_names|length) %}
+    <li class="order-product-li">{{ order_data.product_names[i] }}</li>
+    {% endfor %}
+  </ul>
+  <ul class="order-content-ul" id="order-prices-ul">
+    {% for i in range(order_data.prices|length) %}
+    <li class="order-price-li">{{ order_data.prices[i] }}</li>
+    {% endfor %}
+  </ul>
+  <div id="ticket-summary-divider"></div>
+  <h2 id="total-price-h2">Total: <span id="total-cost-span"></span></h4>
+</div>
+
+<a href="{{ url_for('index') }}" id="return-to-menu-a"
+  ><h3 id="return-to-menu-h3">Return to menu</h3></a
+>{% endblock %}

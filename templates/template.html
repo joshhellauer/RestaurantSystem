@@ -1,0 +1,121 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McDonald's</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+    filename='/css/template.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    {% block head %} {% endblock %}
+  </head>
+  <body>
+    <div id="nav-bar-wrapper">
+      <img
+        id="nav-bar-logo"
+        src="{{ url_for('static', filename='/images/mcdonalds_logo.png') }}"
+        alt="Logo"
+      />
+      <div class="nav-bar">
+        <div class="nav-bar-upper">
+          <div class="nav-bar-upper-left">
+            <div class="language-select">
+              <button id="language-select-button">
+                Language
+                <span class="select-carrot"
+                  ><i
+                    class="fa-solid fa-chevron-down"
+                    style="color: #000000"
+                  ></i
+                ></span>
+              </button>
+            </div>
+            <div class="nav-bar-ul">
+              <ul class="nav-bar-upper-left-ul">
+                <li class="nav-bar-li" id="sign-up-for-email-li">
+                  Sign Up for Email
+                </li>
+                <li class="nav-bar-li">Careers</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-bar-upper-right">
+            <ul class="nav-bar-upper-right-ul">
+              <li class="nav-bar-upper-right-li" id="search-li">
+                <span>
+                  <i class="fas fa-magnifying-glass" style="color: #969696"></i>
+                </span>
+                <span>Search</span>
+              </li>
+              <li id="change-your-location-li">
+                <i class="fa-solid fa-location-dot" style="color: #ff0000"></i>
+                <span>Change your Location</span>
+              </li>
+              <li class="nav-bar-li" id="order-now-li">
+                <button id="order-now-button">Order Now</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-bar-lower">
+          <ul class="nav-bar-lower-ul">
+            <li class="nav-bar-li" id="our-menu-li">
+              Our Menu
+              <span class="select-carrot"
+                ><i class="fa-solid fa-chevron-down" style="color: #000000"></i
+              ></span>
+            </li>
+            <li class="nav-bar-li" id="download-app-li">Download App</li>
+            <li class="nav-bar-li" id="mymcdonalds-rewards-li">
+              MyMcDonald's Rewards
+            </li>
+            <li class="nav-bar-li" id="exclusive-deals-li">Exclusive Deals</li>
+            <li class="nav-bar-li" id="about-our-food-li">About Our Food</li>
+            <li class="nav-bar-li" id="locate-li">Locate</li>
+            <li class="nav-bar-li" id="change-your-location-li">Gift Cards</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-divider"></div>
+    {% block body %} {% endblock %}
+    <div class="order-summary">
+      <h2 id="order-summary-h2">Order Summary</h2>
+      <form
+        id="order-summary-form"
+        onsubmit="clearOrderSummary()"
+        action="{{ url_for( 'main_page', category_name='Featured Favorites') }}"
+        method="POST"
+      >
+        <textarea
+          readonly
+          id="readonly-textarea"
+          name="order-ticket"
+          id="order-ticket"
+          cols="30"
+          rows="10"
+        >
+        </textarea>
+        <input
+          required
+          id="name-input"
+          type="text"
+          name="customer-name"
+          placeholder="Enter your name"
+        />
+        <input type="submit" value="Place order" id="order-submit-button" />
+      </form>
+      <a href="{{ url_for('kitchen') }}">
+        <h2 id="view-the-kitchen-h2">
+          View the kitchen <i class="fa-solid fa-arrow-right-long"></i>
+        </h2>
+      </a>
+    </div>
+  </body>
+</html>

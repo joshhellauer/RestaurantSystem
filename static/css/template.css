@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+#nav-bar-wrapper {
+  margin: 25px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#nav-bar-logo {
+  display: inline-block;
+  justify-self: last baseline;
+  margin-top: 50px;
+  margin-left: 5px;
+
+  width: 55px;
+  height: 55px;
+}
+
+.nav-bar {
+  margin-top: 25px;
+  margin-left: 60px;
+  width: calc(100% - 80px);
+  height: 100px;
+}
+
+.nav-bar-upper {
+  display: flex;
+  /* justify-content: space-around; */
+  height: 50%;
+}
+
+.nav-bar-upper > ul {
+  height: 100%;
+  column-width: 16%;
+}
+
+.nav-bar-upper-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar-upper-right {
+  height: 60px;
+  margin-right: 150px;
+}
+
+#language-select-button {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: inherit;
+  border: none;
+  font-size: 14px;
+}
+
+#sign-up-for-email-li {
+  width: 130px;
+}
+
+#search-li {
+  width: 80px;
+}
+
+#order-now-button {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  background: rgb(255, 200, 0);
+  border: none;
+  border-radius: 6%;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+
+  /* margin-bottom: 25px; */
+}
+
+#change-your-location-li {
+  width: 180px;
+}
+
+.nav-bar-upper-right {
+  margin-left: auto;
+}
+
+.nav-bar-lower {
+  display: flex;
+  margin-top: 10px;
+  font-size: 16px;
+  width: 100%;
+  /* justify-content: space-evenly;
+  align-items: baseline; */
+}
+
+.nav-bar-lower li {
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.nav-bar li {
+  margin-left: 16px;
+  width: 120px;
+}
+
+#our-menu-li {
+  width: 110px;
+  margin-left: 10px;
+  border-bottom: 4px solid rgb(201, 0, 0);
+}
+
+#download-app-li {
+  width: 120px;
+}
+
+#mymcdonalds-rewards-li {
+  width: 180px;
+}
+
+#locate-li {
+  width: 80px;
+}
+
+.main-divider {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(243, 241, 241, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary {
+  position: fixed;
+  top: 30%;
+  right: 10;
+  width: 300px;
+}
+
+.order-summary * {
+  display: block;
+}
+
+#order-summary-h2 {
+  text-align: center;
+  background-color: white;
+  border: 3px solid black;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#readonly-textarea {
+  resize: none;
+  width: 100%;
+}
+
+#name-input {
+  width: 100%;
+  font-size: large;
+  padding-left: 5px;
+  margin: 10px 0;
+  background-color: rgb(217, 233, 245);
+}
+
+#order-submit-button {
+  width: 100%;
+  font-size: x-large;
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+#order-submit-button:hover {
+  background-color: red;
+}
+
+#view-the-kitchen-h2 {
+  margin: 10px 0;
+}
+
+#view-the-kitchen-h2:hover {
+  text-decoration: underline;
+}

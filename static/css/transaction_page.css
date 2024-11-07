@@ -1,0 +1,65 @@
+.order-summary {
+  display: none;
+}
+
+#your-order-h1 {
+  text-align: center;
+}
+
+#order-name-h1 {
+  text-align: center;
+}
+
+#ticket-id-h2 {
+  text-align: center;
+  font-weight: 200;
+}
+
+.ticket-item-div {
+  text-align: center;
+  max-width: 500px;
+  margin-left: calc(50% - 200px);
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+#ticket-summary-divider {
+  margin: 5px 0px;
+  width: 100%;
+  height: 3px;
+  background: black;
+}
+
+#return-to-menu-a,
+#return-to-menu-a:visited,
+#return-to-menu-a:hover,
+#return-to-menu-a:focus,
+#return-to-menu-a:active {
+  color: black;
+  text-align: center;
+}
+
+#return-to-menu-h3 {
+  text-align: center;
+}
+
+.order-content-ul {
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+}
+
+.order-price-li,
+.order-product-li,
+.order-quantity-li {
+  margin: 0 10px;
+  padding: 0;
+}
+
+#total-price-h2 {
+  text-align: start;
+}
+
+#total-cost-span {
+  float: right;
+}

@@ -1,0 +1,124 @@
+{% extends 'template.html' %} {% block head %}
+<script src="{{ url_for('static', filename='/js/main_page.js') }}"></script>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='/css/main_page.css') }}"
+/>
+{% endblock %} {% block body %}
+<div class="container">
+  <div class="category-menu">
+    <ul id="featured-favorites-ul">
+      <a href="{{ url_for('main_page', category_name='Featured Favorites') }}"><li id="featured-favorites-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/featured_favorites.jpg') }}"
+          alt="Featured Favorites"
+        />Featured Favorites
+      </li></a>
+    </ul>
+    <ul class="catmen-ul">
+      <a href="{{ url_for('main_page', category_name='Breakfast') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-breakfast.jpg') }}"
+          alt="Featured Favorites"
+        />Breakfast
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Burgers') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-burgers.jpg') }}"
+          alt="Burgers"
+        />Burgers
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Chicken & Fish Sandwiches') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-chickenfish.jpg') }}"
+          alt="Chicken and Fish Sandwiches"
+        />Chicken & Fish Sandwiches
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='McNuggets and Meals') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-mcnuggets.jpg') }}"
+          alt="McNuggets and Meals"
+        />McNuggets&#169 and Meals
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Fries & Sides') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-friesandsides.jpg') }}"
+          alt="Fries and Sides"
+        />Fries&#169 and Sides
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Happy Meal') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-happymeal.jpg') }}"
+          alt="Happy Meals"
+        />Happy Meal&#169
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='McCafe Coffees') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-mccafecoffees.jpg') }}"
+          alt="McCafe Coffees"
+        />McCaf&#233&#169 Coffees
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Sweets & Treats') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-sweets.jpg') }}"
+          alt="Sweets and Treats"
+        />Sweets and Treats
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Beverages') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-beverages.jpg') }}"
+          alt="Beverages"
+        />Beverages
+      </li></a>
+      <a href="{{ url_for('main_page', category_name='Beverages') }}"><li class="catmen-li">
+        <img
+          class="catmen-img"
+          src="{{ url_for('static', filename='/images/catmen-123dollarmenu.jpg') }}"
+          alt="$1 $2 $3 Dollar Menu"
+        />$1 $2 $3 Dollar Menu
+      </li></a>
+    </ul>
+  </div>
+  <div class="main-content">
+    
+      {#  The featured favorites page varies slightly in its title from other pages #}
+      <h1 id="default-title">McDonald's Menu</h1>
+      <h1 id="category-title"> {{ category_name }} </h1>
+        <div class="content-card-container">
+          {% for product in products %}
+            <div>
+              <a href="{{ url_for('get_product', product_id=product.id)}}">
+                <div class="content-card">
+                  <img class="content-img" src="{{ url_for('static', filename=product.image )}}" alt="">
+                  <h3 class="content-card-title">{{product.name}} </h3>
+                </div>
+                </a>
+                <div class="order-now-div">
+                    <button class="quantity-button" onclick="decreaseQuantity('{{ product.id }}')">-</button>
+                    <input id="input-{{ product.id }}" readonly type="number" class="quantity-input"  value="1" min="1">
+                    <button class="quantity-button" onclick="increaseQuantity('{{ product.id }}')">+</button>
+                    <button class="order-now-button" data-product-id="{{ product.id }}"
+                      data-product-name="{{ product.name }}"
+                      data-product-price="{{ product.price }}"
+                     onclick="addToOrder('{{ product.name }}', '{{ product.price }}', '{{ product.id }}')">Add to order
+                    </button>
+                </div>
+            </div>
+            
+            {% endfor %}
+        </div>
+        
+  </div>
+  
+</div>
+{% endblock %}

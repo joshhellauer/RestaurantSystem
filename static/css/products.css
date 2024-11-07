@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#view-full-menu-a,
+#view-full-menu-a:before,
+#view-full-menu-a:visited,
+#view-full-menu-a:hover,
+#view-full-menu-a:focus {
+  color: black;
+}
+
+#view-full-menu-h2 {
+  margin: 10px;
+}
+
+.main-content {
+  display: flex;
+  max-width: 1000px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+.product-info {
+  display: inline-block;
+  padding-top: 30px;
+  width: 400px;
+}
+
+#product-name-h1 {
+  font-size: 3.2rem;
+}
+
+#calories-h3 {
+  margin: 20px;
+  margin-left: 0;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.order-now-div {
+  height: 30px;
+}
+
+.quantity-label {
+  display: block;
+}
+
+.quantity-button {
+  width: 20px;
+  height: 90%;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(219, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 6%;
+}
+
+.quantity-button:hover {
+  background-color: rgb(246, 68, 68);
+}
+
+.quantity-button:active {
+  background-color: rgb(219, 0, 0);
+}
+
+.quantity-input {
+  text-align: center;
+  width: 40px;
+  height: 100%;
+  font-size: 20px;
+}
+
+.order-now-button {
+  height: 90%;
+  width: 100px;
+  font-size: 16px;
+  background-color: rgb(246, 207, 68);
+  color: black;
+  border: none;
+  border-radius: 6%;
+}
+
+.order-now-button:hover {
+  background-color: rgb(224, 178, 13);
+}
+
+#view-the-kitchen-h2 {
+  color: black;
+  text-decoration: none;
+}
+
+#view-the-kitchen-h2:hover {
+  color: black;
+  text-decoration: underline;
+}
